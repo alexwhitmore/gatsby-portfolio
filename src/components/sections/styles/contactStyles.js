@@ -24,6 +24,7 @@ export const ContactWrapper = styled.section`
     &__text,
     a {
       font-size: 2.4rem;
+      text-align: center;
 
       @media (max-width: 37.5em) {
         font-size: 2rem;
