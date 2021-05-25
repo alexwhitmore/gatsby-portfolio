@@ -23,7 +23,7 @@ export const ContactWrapper = styled.section`
 
     a {
       display: inline-flex;
-      justify-content: center;
+      justify-content: ce;
     }
 
     &__text,
