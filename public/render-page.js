@@ -31804,17 +31804,6 @@ function v(){return(v=Object.assign||function(e){for(var t=1;t<arguments.length;
 
 /***/ }),
 
-/***/ "./src/components/layout.css":
-/*!***********************************!*\
-  !*** ./src/components/layout.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/html.js":
 /*!*********************!*\
   !*** ./src/html.js ***!
@@ -31829,8 +31818,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_layout_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/layout.css */ "./src/components/layout.css");
-/* harmony import */ var _components_layout_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_layout_css__WEBPACK_IMPORTED_MODULE_2__);
 /* eslint-disable react/require-default-props */
 
 /* eslint-disable react/no-danger */
@@ -31838,7 +31825,6 @@ __webpack_require__.r(__webpack_exports__);
 /* eslint-disable react/forbid-prop-types */
 
 /* eslint-disable jsx-a11y/html-has-lang */
-
 
 
 function HTML({

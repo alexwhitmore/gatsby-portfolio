@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../components/layout.css';
+import '../layout.css';
 
 export default () => {
   return (

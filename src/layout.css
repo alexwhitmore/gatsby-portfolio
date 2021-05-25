@@ -8,9 +8,9 @@ GLOBAL STYLES
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-@import './vendor/css/font-awesome.min.css ';
+@import './components/vendor/css/font-awesome.min.css';
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -23,17 +23,17 @@ p,
 a {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
-}
+} */
 
-a,
+/* a,
 a:link,
 a:hover,
 a:visited,
 a:active {
   text-decoration: none;
-}
+} */
 
-a:hover {
+/* a:hover {
   transition: all 0.3s ease-in-out;
 }
 
@@ -67,4 +67,4 @@ section {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
+} */

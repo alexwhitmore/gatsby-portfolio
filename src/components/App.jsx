@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { PortfolioProvider } from '../context/context';
-import './layout.css';
 
 import { Hero, About, Projects, Contact, Footer } from '@components';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import GlobalStyle from '../globalStyles';
 
 function App() {
   const [hero, setHero] = useState({});
@@ -23,6 +23,7 @@ function App() {
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+      <GlobalStyle />
       <Hero />
       <About />
       <Projects />
