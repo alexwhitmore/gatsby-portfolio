@@ -4,6 +4,7 @@
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
 import PropTypes from 'prop-types';
+import './components/layout.css';
 
 export default function HTML({
   htmlAttributes,
