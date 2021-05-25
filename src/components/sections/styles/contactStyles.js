@@ -21,6 +21,11 @@ export const ContactWrapper = styled.section`
       margin-bottom: 2.5rem;
     }
 
+    a {
+      display: inline-flex;
+      justify-content: center;
+    }
+
     &__text,
     a {
       font-size: 2.4rem;
