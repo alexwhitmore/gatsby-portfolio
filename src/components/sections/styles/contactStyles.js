@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import '../../vendor/css/font-awesome.min.css';
 
 export const ContactWrapper = styled.section`
   background-color: #0d2438;
@@ -19,11 +20,6 @@ export const ContactWrapper = styled.section`
 
     &__text {
       margin-bottom: 2.5rem;
-    }
-
-    a {
-      display: inline-flex;
-      justify-content: ce;
     }
 
     &__text,

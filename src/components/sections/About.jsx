@@ -5,10 +5,9 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 import Title from '../Title/Title';
 import Img from 'gatsby-image';
 
-import Resume from '@/images/resume.pdf';
-import { AboutWrapper, AboutSkillsList } from '@styles/aboutStyles';
-import { ButtonWrapper } from '@styles/ButtonWrapper';
+import { AboutWrapper, AboutSkillsList, ButtonWrapper } from '@style';
 import { Button } from '@components';
+import Resume from '@/images/resume.pdf';
 import { skills, aboutMe } from '@config';
 
 const About = () => {

@@ -3,12 +3,11 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 
 import { socialLinks } from '@config';
-import { FooterWrapper } from '@styles/footerStyles';
+import { FooterWrapper } from '@style';
 
 const Footer = () => {
   return (
     <FooterWrapper className="footer navbar-static-bottom">
-      {/* <footer className="footer navbar-static-bottom"> */}
       <Container>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
@@ -32,7 +31,6 @@ const Footer = () => {
             })}
         </div>
       </Container>
-      {/* </footer> */}
     </FooterWrapper>
   );
 };

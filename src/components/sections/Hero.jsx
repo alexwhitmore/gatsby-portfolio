@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 
 import { Button } from '@components';
-import { HeroWrapper, HeroTitle, HeroButton } from '@styles/heroStyles';
+import { HeroWrapper, HeroTitle, HeroButton } from '@style';
 
 const Header = () => {
   const [isDesktop, setIsDesktop] = useState(false);

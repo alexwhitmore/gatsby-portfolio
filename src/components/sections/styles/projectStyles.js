@@ -6,6 +6,11 @@ export const ProjectsWrapper = styled.section`
   padding-bottom: 15rem;
   padding-top: 150px;
 
+  .text-color-main:hover {
+    color: #02aab0;
+    opacity: 0.7;
+  }
+
   .cta-btn {
     display: inline-block;
     position: relative;

@@ -7,10 +7,8 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 import Img from 'gatsby-image';
 
-import { ProjectsWrapper, SourceCodeWrapper } from '@styles/projectStyles';
+import { ProjectsWrapper, SourceCodeWrapper } from '@style';
 import { useStaticQuery } from 'gatsby';
-
-//NOTES Add in technology used in the projects section
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);

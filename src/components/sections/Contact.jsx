@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 
-import { ContactWrapper } from '@styles/contactStyles';
+import { ContactWrapper } from '@style';
 import { email } from '@config';
 
 const Contact = () => {
