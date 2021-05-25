@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       paragraph:
-        'I graduated from a coding bootcamp where I learned how to be a full stack software engineer and I am now pursuing a bachlors degree in computer science.',
+        'I graduated from a coding bootcamp where I learned how to be a full stack software engineer and I am now pursuing a bachelors degree in computer science.',
     },
     {
       paragraph: "Some technologies I've been working with recently:",
